@@ -2,6 +2,7 @@
 
 ## General
 
+* use UTF-8 without BOM
 * use tabs for indenting and spaces for aligning. [Details…](http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/)
 * no whitespace at the end of lines (except special meanings like in markdown or e-mail)
 * always add a new line to the end of files (better for git)
