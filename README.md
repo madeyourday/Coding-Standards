@@ -2,10 +2,11 @@
 
 ## General
 
-* use UTF-8 without BOM
-* use tabs for indenting and spaces for aligning. [Details…](http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/)
-* no whitespace at the end of lines (except special meanings like in markdown or e-mail)
-* always add a new line to the end of files (better for git)
+* Use UTF-8 without BOM
+* Use tabs for indenting and spaces for aligning. [Details…](http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/)
+* No limit on line length. The soft limit is 120 characters. Lines SHOULD be 80 characters or less.
+* No whitespace at the end of lines (except special meanings like in markdown or e-mail)
+* Always add a new line to the end of files (better for git)
 
 ## PHP
 
@@ -14,10 +15,10 @@ Follow the standards defined in [PSR-0](https://github.com/php-fig/fig-standards
 * Code MUST use tabs for indenting and spaces for aligning. [Details…](http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/)
 * `else` and `elseif` MUST be on the next line after the closing parenthesis
 * To check if a value is empty or falsy use `$var` or `!$var` if the variable definitely exists, otherwise use `empty($var)` or `!empty($var)`
-* always use `===` and `!==` for string comparison
-* ommit the semicolon for single expressions in php templates (e.g. `<?php echo $var ?>` instead of `<?php echo $var; ?>`)
-* in PHP 5.4 `<?= $var ?>` should be used instead of `<?php echo $var ?>`
-* in PHP 5.4 `[1, 2, 3]` should be used instead of `array(1, 2, 3)`
+* Always use `===` and `!==` for string comparison
+* Ommit the semicolon for single expressions in php templates (e.g. `<?php echo $var ?>` instead of `<?php echo $var; ?>`)
+* In PHP 5.4 `<?= $var ?>` should be used instead of `<?php echo $var ?>`
+* In PHP 5.4 `[1, 2, 3]` should be used instead of `array(1, 2, 3)`
 
 ### Examples
 
@@ -29,9 +30,22 @@ Follow the standards defined in [PSR-0](https://github.com/php-fig/fig-standards
 ## HTML
 
 * HTML5
-* write everything in xhtml syntax except self closing tags and boolean attributes (`<input checked>` instead of `<input checked="checked" />`)
-* close all tags, except self closing tags as shown above
+* Write everything in xhtml syntax except self closing tags and boolean attributes (`<input checked>` instead of `<input checked="checked" />`)
+* Close all tags, except self closing tags as shown above
 
 ### Examples
 
 * [html.html](https://github.com/madeyourday/Coding-Standards/blob/master/examples/html.html)
+
+## Editors
+
+### Sublime Text 2
+
+Recommended settings:
+
+	{
+		"draw_white_space": "all",
+		"ensure_newline_at_eof_on_save": true,
+		"trim_trailing_white_space_on_save": true,
+		"rulers": [80, 120]
+	}
