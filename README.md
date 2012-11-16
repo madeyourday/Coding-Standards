@@ -5,7 +5,7 @@
 * Use UTF-8 without BOM
 * Use tabs for indenting and spaces for aligning. [Details…](http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/)
 * No limit on line length. The soft limit is 120 characters. Lines SHOULD be 80 characters or less.
-* No whitespace at the end of lines (except special meanings like in markdown or e-mail)
+* No whitespace at the end of lines (except special meanings like in markdown or email)
 * Always add a new line to the end of files (better for git)
 
 ## PHP
@@ -17,6 +17,7 @@ Follow the standards defined in [PSR-0](https://github.com/php-fig/fig-standards
 * To check if a value is empty or falsy use `$var` or `!$var` if the variable definitely exists, otherwise use `empty($var)` or `!empty($var)`
 * Always use `===` and `!==` for string comparison
 * Ommit the semicolon for single expressions in php templates (e.g. `<?php echo $var ?>` instead of `<?php echo $var; ?>`)
+* The last item of an multiline array must end with a comma
 * In PHP 5.4 `<?= $var ?>` should be used instead of `<?php echo $var ?>`
 * In PHP 5.4 `[1, 2, 3]` should be used instead of `array(1, 2, 3)`
 
@@ -30,7 +31,7 @@ Follow the standards defined in [PSR-0](https://github.com/php-fig/fig-standards
 ## HTML
 
 * HTML5
-* Write everything in xhtml syntax except self closing tags and boolean attributes (`<input checked>` instead of `<input checked="checked" />`)
+* Write everything in XHTML syntax except self closing tags and boolean attributes (`<input checked>` instead of `<input checked="checked" />`)
 * Close all tags, except self closing tags as shown above
 
 ### Examples
@@ -47,5 +48,6 @@ Recommended settings:
 		"draw_white_space": "all",
 		"ensure_newline_at_eof_on_save": true,
 		"trim_trailing_white_space_on_save": true,
+		"open_files_in_new_window": false,
 		"rulers": [80, 120]
 	}

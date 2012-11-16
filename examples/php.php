@@ -54,7 +54,7 @@ class ClassName extends \ExtendedClass implements \ImplementedInterface
 			         . 'ex ea commodo consequat. Duis aute irure dolor in.';
 		}
 		elseif (!empty($typeLess['key'])) {
-			$output .= 'Lorem ipsum dolor sit amet, consectetur adipisicing '
+			$output .= 'Lorem ipsum dolor sit amet, consectetur adipisicing ';
 		}
 
 		return $output;
@@ -67,6 +67,6 @@ class ClassName extends \ExtendedClass implements \ImplementedInterface
 	 */
 	abstract public static function methodName()
 	{
-		return static::SOME_CONSTANT
+		return static::SOME_CONSTANT;
 	}
 }
