@@ -24,3 +24,9 @@ Follow the standards defined in [PSR-0](https://github.com/php-fig/fig-standards
 * [php-template.php](https://github.com/madeyourday/Coding-Standards/blob/master/examples/php-template.php) PHP code used in a template
 * [php-wordpress.php](https://github.com/madeyourday/Coding-Standards/blob/master/examples/php-wordpress.php) PHP code in WordPress themes follows the [WordPress Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards)
 * [php-wordpress-template.php](https://github.com/madeyourday/Coding-Standards/blob/master/examples/php-wordpress-template.php) PHP code used in a WordPress template
+
+## HTML
+
+* HTML5
+* write everything in xhtml syntax except self closing tags and boolean attributes (`<input checked>` instead of `<input checked="checked" />`)
+* close all tags, except self closing tags as shown above
