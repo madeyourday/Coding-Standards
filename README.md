@@ -14,6 +14,7 @@ Follow the standards defined in [PSR-0](https://github.com/php-fig/fig-standards
 * `else` and `elseif` MUST be on the next line after the closing parenthesis
 * To check if a value is empty or falsy use `$var` or `!$var` if the variable definitely exists, otherwise use `empty($var)` or `!empty($var)`
 * always use `===` and `!==` for string comparison
+* ommit the semicolon for single expressions in php templates (e.g. `<?php echo $var ?>` instead of `<?php echo $var; ?>`)
 * in PHP 5.4 `<?= $var ?>` should be used instead of `<?php echo $var ?>`
 * in PHP 5.4 `[1, 2, 3]` should be used instead of `array(1, 2, 3)`
 
