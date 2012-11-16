@@ -31,3 +31,7 @@ Follow the standards defined in [PSR-0](https://github.com/php-fig/fig-standards
 * HTML5
 * write everything in xhtml syntax except self closing tags and boolean attributes (`<input checked>` instead of `<input checked="checked" />`)
 * close all tags, except self closing tags as shown above
+
+### Examples
+
+* [html.html](https://github.com/madeyourday/Coding-Standards/blob/master/examples/html.html)
