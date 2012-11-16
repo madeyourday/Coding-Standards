@@ -1,5 +1,11 @@
 # MADE/YOUR/DAY Coding Standards and Style Guide
 
+## General
+
+* use tabs for indenting and spaces for aligning. [Details…](http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/)
+* no whitespace at the end of lines (except special meanings like in markdown or e-mail)
+* always add a new line to the end of files (better for git)
+
 ## PHP
 
 Follow the standards defined in [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md), [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) and [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) except the following points:
